@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/entireFragment"
+            android:title="전체보기"/>
+
+        <item android:id="@+id/item1Fragment"
+            android:title="햄버거"/>
+
+        <item android:id="@+id/item2Fragment"
+            android:title="치킨"/>
+
+        <item android:id="@+id/item3Fragment"
+            android:title="피자"/>
+
+        <item android:id="@+id/item4Fragment"
+            android:title="아이스크림" />
+
+        <item android:id="@+id/item5Fragment"
+            android:title="과자" />
+
+        <item android:id="@+id/item6Fragment"
+            android:title="기타" />
+    </group>
+</menu>

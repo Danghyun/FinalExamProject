@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hamburger"
+        android:title="햄버거" />
+    <item
+        android:id="@+id/chicken"
+        android:title="치킨" />
+    <item
+        android:id="@+id/pizza"
+        android:title="피자" />
+    <item
+        android:id="@+id/icream"
+        android:title="아이스크림" />
+    <item
+        android:id="@+id/snack"
+        android:title="과자" />
+    <item
+        android:id="@+id/etc"
+        android:title="기타" />
+
+
+</menu>

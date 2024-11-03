@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/entireFragment">
+    <fragment
+        android:id="@+id/entireFragment"
+        android:name="com.example.ui.Fragment.Entire.EntireFragment"
+        android:label="전체보기"/>
+    <fragment
+        android:id="@+id/item1Fragment"
+        android:name="com.example.ui.Fragment.Item1.Item1Fragment"
+        android:label="햄버거"/>
+    <fragment
+        android:id="@+id/item2Fragment"
+        android:name="com.example.ui.Fragment.Item2.Item2Fragment"
+        android:label="치킨"/>
+    <fragment
+        android:id="@+id/item3Fragment"
+        android:name="com.example.ui.Fragment.Item3.Item3Fragment"
+        android:label="피자"/>
+    <fragment
+        android:id="@+id/item4Fragment"
+        android:name="com.example.ui.Fragment.Item4.Item4Fragment"
+        android:label="아이스크림"/>
+    <fragment
+        android:id="@+id/item5Fragment"
+        android:name="com.example.ui.Fragment.Item5.Item5Fragment"
+        android:label="과자"/>
+    <fragment
+        android:id="@+id/item6Fragment"
+        android:name="com.example.ui.Fragment.Item6.Item6Fragment"
+        android:label="기타" />
+</navigation>
